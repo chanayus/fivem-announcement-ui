@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: max(10px, 0.84vw);
+  background: #999;
+}
+
+* {
+  font-family: "Kanit", sans-serif;
+}
